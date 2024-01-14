@@ -28,34 +28,13 @@ background-color: rgba(0, 0, 0, 0.3);
     margin-top:300px ;
 }
 
-.main-div div{
+.main-div img{
 height: 250px;
-width: 380px;
 margin-top: 25px;
+transition: 0.25s;
 }
 
-.main-div div img {
-    height: 250px;
-    width: 380px;
-    transition: 0.25s;
-}
-
-.main-div div img:hover {
+.main-div img:hover, .main-div img.active {
 transform: scale(1.02);
-}
-
-.deer.opened {
-    transform: scale(1.1);
-    transform-origin: center;
-}
-
-.forest.opened {
-    transform: scale(1.1);
-    transform-origin: center;
-}
-
-.valley.opened {
-    transform: scale(1.1);
-    transform-origin: center;
 }
 
