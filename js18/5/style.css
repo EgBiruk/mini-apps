@@ -1,0 +1,12 @@
+.my-container {
+    display: flex;
+}
+
+.card {
+    margin-left: 50px;
+}
+
+li {
+    transition: all 0.4s ease;
+}
+
